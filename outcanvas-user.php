@@ -6,6 +6,7 @@
   Description: Sign in, up, Membership, Roles and Capabilities.
   Version: 1.0.0
   GitHub Plugin URI: outcanvas/outcanvas-user
+  GitHub Access Token: ac03ecc628840cf71af6f730bb664a0c712871e7
  */
 
 class outcanvasUser {
