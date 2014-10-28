@@ -34,7 +34,7 @@ class outcanvasUser {
 		$this->plugin_path = plugin_dir_path( __FILE__ );
 		$this->plugin_url  = plugin_dir_url( __FILE__ );
 
-		load_plugin_textdomain( $this->text_domain, false, $this->plugin_path . '/lang' );
+		load_plugin_textdomain($this->text_domain, false, $this->plugin_path . '/lang' );
 
 		add_action( 'admin_enqueue_scripts', array( $this, 'register_scripts' ) );
 		add_action( 'admin_enqueue_scripts', array( $this, 'register_styles' ) );
@@ -92,4 +92,4 @@ class outcanvasUser {
 	}
 }
 
-outcanvasUser::get_instance();
+$outcanvasUser = outcanvasUser::get_instance();

@@ -1,0 +1,28 @@
+{
+  "fullName": "outcanvas Users",
+  "name": "outcanvas-user",
+  "description": "outcanvas Users plugin.",
+  "version": "1.0.1",
+  "author": "outcanvas <contact@outcanvas.com>",
+  "homepage": "http://outcanvas.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/outcanvas/outcanvas-user.git"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-bumper": "^1.0.4",
+    "grunt-contrib-cssmin": "~0.6.0",
+    "grunt-contrib-imagemin": "^0.8.1",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-less": "~0.8.1",
+    "grunt-contrib-uglify": "~0.2.4",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-prompt": "^1.1.0",
+    "grunt-rewrite": "^1.0.1",
+    "grunt-wp-version": "~0.1.0"
+  }
+}
